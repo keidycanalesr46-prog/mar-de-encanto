@@ -1,0 +1,746 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="x-ua-compatible" content="ie=edge">
+   <title>Perla del Golfo</title>
+   <meta name="description" content="">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <!-- <link rel="manifest" href="site.webmanifest"> -->
+   <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+   <!-- Place favicon.ico in the root directory -->
+
+   <!-- CSS here -->
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/owl.carousel.min.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+   <link rel="stylesheet" href="css/font-awesome.min.css">
+   <link rel="stylesheet" href="css/themify-icons.css">
+   <link rel="stylesheet" href="css/nice-select.css">
+   <link rel="stylesheet" href="css/flaticon.css">
+   <link rel="stylesheet" href="css/gijgo.css">
+   <link rel="stylesheet" href="css/animate.css">
+   <link rel="stylesheet" href="css/slicknav.css">
+   <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Footer Instagram: fotos del mismo tamaño */
+        .footer .footer_top .footer_widget .instagram_feed .single_insta img {
+            height: 70px;
+            object-fit: cover;
+        }
+
+        /* Miniaturas de publicaciones recientes (barra lateral) */
+        .blog_right_sidebar .popular_post_widget .post_item img {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+
+        /* Miniaturas de entrada anterior / siguiente */
+        .single-post-area .navigation-area .thumb img {
+            width: 90px;
+            height: 90px;
+            object-fit: cover;
+        }
+
+        /* Que la miniatura de "Siguiente entrada" no se corte ni se encoja */
+        .single-post-area .navigation-area .thumb {
+            flex-shrink: 0;
+        }
+        .single-post-area .navigation-area .nav-right .thumb {
+            margin-left: 15px;
+        }
+
+        /* Instagram de la barra lateral: todas cuadradas e iguales */
+        .blog_right_sidebar .instagram_feeds .instagram_row {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 -3px;
+            padding: 0;
+        }
+        .blog_right_sidebar .instagram_feeds .instagram_row li {
+            width: 33.333%;
+            padding: 3px;
+            margin: 0;
+            float: none;
+        }
+        .blog_right_sidebar .instagram_feeds .instagram_row li a {
+            display: block;
+        }
+        .blog_right_sidebar .instagram_feeds .instagram_row li img {
+            width: 100% !important;
+            height: auto !important;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+            display: block;
+        }
+    </style>
+   <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+</head>
+
+<body>
+   <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+    <!-- header-start -->
+    <header>
+      <div class="header-area ">
+          <div id="sticky-header" class="main-header-area">
+              <div class="container-fluid">
+                  <div class="header_bottom_border">
+                      <div class="row align-items-center">
+                          <div class="col-xl-2 col-lg-2">
+                              <div class="logo">
+                                  <a href="index.html">
+                                      <img src="img/logo.png" alt="">
+                                  </a>
+                              </div>
+                          </div>
+                          <div class="col-xl-6 col-lg-6">
+                              <div class="main-menu  d-none d-lg-block">
+                                  <nav>
+                                      <ul id="navigation">
+                                          <li><a class="active" href="index.html">Inicio</a></li>
+                                          <li><a href="about.html">Nosotros</a></li>
+                                          <li><a class="" href="travel_destination.html">Destinos</a></li>
+                                          <li><a href="#">Páginas<i class="ti-angle-down"></i></a>
+                                              <ul class="submenu">
+                                                      <li><a href="destination_details.html">Detalle del destino</a></li>
+                                                      <li><a href="elements.html">Elementos</a></li>
+                                              </ul>
+                                          </li>
+                                          <li><a href="#">blog <i class="ti-angle-down"></i></a>
+                                              <ul class="submenu">
+                                                  <li><a href="blog.html">Entrada del blog</a></li>
+                                                  <li><a href="single-blog.html">single-blog</a></li>
+                                              </ul>
+                                          </li>
+                                          <li><a href="contact.html">Contacto</a></li>
+                                      </ul>
+                                  </nav>
+                              </div>
+                          </div>
+                          <div class="col-xl-4 col-lg-4 d-none d-lg-block">
+                              <div class="social_wrap d-flex align-items-center justify-content-end">
+                                  <div class="number">
+                                      <p> <i class="fa fa-phone"></i> +504 9845 1752</p>
+                                  </div>
+                                  <div class="social_links d-none d-xl-block">
+                                      <ul>
+                                          <li><a href="#"> <i class="fa fa-instagram"></i> </a></li>
+                                          <li><a href="#"> <i class="fa fa-linkedin"></i> </a></li>
+                                          <li><a href="#"> <i class="fa fa-facebook"></i> </a></li>
+                                          <li><a href="#"> <i class="fa fa-google-plus"></i> </a></li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="seach_icon">
+                              <a data-toggle="modal" data-target="#exampleModalCenter" href="#">
+                                  <i class="fa fa-search"></i>
+                              </a>
+                          </div>
+                          <div class="col-12">
+                              <div class="mobile_menu d-block d-lg-none"></div>
+                          </div>
+                      </div>
+                  </div>
+
+              </div>
+          </div>
+      </div>
+  </header>
+  <!-- header-end -->
+
+    <!-- bradcam_area  -->
+    <div class="bradcam_area bradcam_bg_4">
+      <div class="container">
+          <div class="row">
+              <div class="col-xl-12">
+                  <div class="bradcam_text text-center">
+                      <h3>Entrada del blog</h3>
+                      <p>Isla del Tigre, Golfo de Fonseca</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!--/ bradcam_area  -->
+
+   <!--================Blog Area =================-->
+   <section class="blog_area single-post-area section-padding">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-8 posts-list">
+               <div class="single-post">
+                  <div class="feature-img">
+                     <img class="img-fluid" src="img/blog/single_blog_1.png" alt="Playa Grande, Isla del Tigre">
+                  </div>
+                  <div class="blog_details">
+                     <h2>Un Día de Playa en Playa Grande</h2>
+                     <ul class="blog-info-link mt-3 mb-4">
+                        <li><a href="#"><i class="fa fa-user"></i> Viajes, Turismo</a></li>
+                        <li><a href="#"><i class="fa fa-comments"></i> 03 Comentarios</a></li>
+                     </ul>
+                     <p class="excert">
+                        Playa Grande es uno de los lugares populares de la Isla del Tigre, en Amapala, Valle. Aquí el mar es tranquilo y el ambiente invita a descansar frente al Golfo de Fonseca.
+                     </p>
+                     <p>
+                        Llega en lancha desde Coyolito y disfruta del trayecto por las aguas del golfo hasta Amapala. Ya en la isla, solo tienes que elegir un lugar frente al mar y dejar que pase el día.
+                     </p>
+                     <div class="quote-wrapper">
+                        <div class="quotes">
+                           "Los mariscos frescos, el paseo en lancha y la tranquilidad de la isla hicieron que Amapala fuera el mejor destino para descansar en familia."
+                        </div>
+                     </div>
+                     <p>
+                        Cuando baje el sol, quédate a ver el atardecer sobre el golfo. Después, prueba el pescado fresco en el muelle de Amapala.
+                     </p>
+                     <p>
+                        Si quieres seguir explorando, la isla tiene más por ofrecer: Playa Negra, el volcán, el casco histórico y una ruta circular de 17 km.
+                     </p>
+                  </div>
+               </div>
+               <div class="navigation-top">
+                  <div class="d-sm-flex justify-content-between text-center">
+                     <p class="like-info"><span class="align-middle"><i class="fa fa-heart"></i></span> A 5 personas les gusta esto</p>
+                     <div class="col-sm-4 text-center my-2 my-sm-0">
+                        <!-- <p class="comment-count"><span class="align-middle"><i class="fa fa-comment"></i></span> 06 Comments</p> -->
+                     </div>
+                     <ul class="social-icons">
+                        <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                        <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                     </ul>
+                  </div>
+                  <div class="navigation-area">
+                     <div class="row">
+                        <div
+                           class="col-lg-6 col-md-6 col-12 nav-left flex-row d-flex justify-content-start align-items-center">
+                           <div class="thumb">
+                              <a href="#">
+                                 <!-- Atardecer en el Golfo de Fonseca -->
+                                 <img class="img-fluid" src="img/post/post_2.png" alt="Atardecer en el Golfo de Fonseca">
+                              </a>
+                           </div>
+                           <div class="arrow">
+                              <a href="#">
+                                 <span class="lnr text-white ti-arrow-left"></span>
+                              </a>
+                           </div>
+                           <div class="detials">
+                              <p>Entrada anterior</p>
+                              <a href="#">
+                                 <h4>Atardecer en el Golfo de Fonseca</h4>
+                              </a>
+                           </div>
+                        </div>
+                        <div
+                           class="col-lg-6 col-md-6 col-12 nav-right flex-row d-flex justify-content-end align-items-center">
+                           <div class="detials">
+                              <p>Siguiente entrada</p>
+                              <a href="#">
+                                 <h4>Pescado Fresco en el Muelle de Amapala</h4>
+                              </a>
+                           </div>
+                           <div class="arrow">
+                              <a href="#">
+                                 <span class="lnr text-white ti-arrow-right"></span>
+                              </a>
+                           </div>
+                           <div class="thumb">
+                              <a href="#">
+                                 <!-- Pescado Fresco en el Muelle de Amapala -->
+                                 <img class="img-fluid" src="img/post/post_3.png" alt="Pescado fresco en el muelle de Amapala">
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="blog-author">
+                  <div class="media align-items-center">
+                     <img src="img/blog/author.png" alt="Mar de Encanto">
+                     <div class="media-body">
+                        <a href="#">
+                           <h4>Mar de Encanto</h4>
+                        </a>
+                        <p>Descubre Amapala, la perla del Golfo de Fonseca: playas, historia y mariscos frescos en la Isla del Tigre.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="comments-area">
+                  <h4>03 Comentarios</h4>
+                  <div class="comment-list">
+                     <div class="single-comment justify-content-between d-flex">
+                        <div class="user justify-content-between d-flex">
+                           <div class="thumb">
+                              <img src="img/comment/comment_1.png" alt="">
+                           </div>
+                           <div class="desc">
+                              <p class="comment">
+                                 ¡Qué lindo lugar! Quiero ir con mi familia el próximo fin de semana.
+                              </p>
+                              <div class="d-flex justify-content-between">
+                                 <div class="d-flex align-items-center">
+                                    <h5>
+                                       <a href="#">Ana Rodríguez</a>
+                                    </h5>
+                                    <p class="date">12 de septiembre de 2026, 3:12 pm </p>
+                                 </div>
+                                 <div class="reply-btn">
+                                    <a href="#" class="btn-reply text-uppercase">responder</a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="comment-list">
+                     <div class="single-comment justify-content-between d-flex">
+                        <div class="user justify-content-between d-flex">
+                           <div class="thumb">
+                              <img src="img/comment/comment_2.png" alt="">
+                           </div>
+                           <div class="desc">
+                              <p class="comment">
+                                 Los atardeceres en el golfo son hermosos. Gracias por compartir.
+                              </p>
+                              <div class="d-flex justify-content-between">
+                                 <div class="d-flex align-items-center">
+                                    <h5>
+                                       <a href="#">María López</a>
+                                    </h5>
+                                    <p class="date">12 de septiembre de 2026, 3:12 pm </p>
+                                 </div>
+                                 <div class="reply-btn">
+                                    <a href="#" class="btn-reply text-uppercase">responder</a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="comment-list">
+                     <div class="single-comment justify-content-between d-flex">
+                        <div class="user justify-content-between d-flex">
+                           <div class="thumb">
+                              <img src="img/comment/comment_3.png" alt="">
+                           </div>
+                           <div class="desc">
+                              <p class="comment">
+                                 Excelente recomendación, el pescado del muelle estaba delicioso.
+                              </p>
+                              <div class="d-flex justify-content-between">
+                                 <div class="d-flex align-items-center">
+                                    <h5>
+                                       <a href="#">Carlos Martínez</a>
+                                    </h5>
+                                    <p class="date">12 de septiembre de 2026, 3:12 pm </p>
+                                 </div>
+                                 <div class="reply-btn">
+                                    <a href="#" class="btn-reply text-uppercase">responder</a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="comment-form">
+                  <h4>Deja un comentario</h4>
+                  <form class="form-contact comment_form" action="#" id="commentForm">
+                     <div class="row">
+                        <div class="col-12">
+                           <div class="form-group">
+                              <textarea class="form-control w-100" name="comment" id="comment" cols="30" rows="9"
+                                 placeholder="Escribe tu comentario"></textarea>
+                           </div>
+                        </div>
+                        <div class="col-sm-6">
+                           <div class="form-group">
+                              <input class="form-control" name="name" id="name" type="text" placeholder="Nombre">
+                           </div>
+                        </div>
+                        <div class="col-sm-6">
+                           <div class="form-group">
+                              <input class="form-control" name="email" id="email" type="email" placeholder="Correo">
+                           </div>
+                        </div>
+                        <div class="col-12">
+                           <div class="form-group">
+                              <input class="form-control" name="website" id="website" type="text" placeholder="Sitio web">
+                           </div>
+                        </div>
+                     </div>
+                     <div class="form-group">
+                        <button type="submit" class="button button-contactForm btn_1 boxed-btn">Enviar comentario</button>
+                     </div>
+                  </form>
+               </div>
+            </div>
+            <div class="col-lg-4">
+               <div class="blog_right_sidebar">
+                  <aside class="single_sidebar_widget search_widget">
+                     <form action="#">
+                        <div class="form-group">
+                           <div class="input-group mb-3">
+                              <input type="text" class="form-control" placeholder='Buscar palabra'
+                                 onfocus="this.placeholder = ''" onblur="this.placeholder = 'Buscar palabra'">
+                              <div class="input-group-append">
+                                 <button class="btn" type="button"><i class="ti-search"></i></button>
+                              </div>
+                           </div>
+                        </div>
+                        <button class="button rounded-0 primary-bg text-white w-100 btn_1 boxed-btn"
+                           type="submit">Buscar</button>
+                     </form>
+                  </aside>
+                  <aside class="single_sidebar_widget post_category_widget">
+                     <h4 class="widget_title">Categorías</h4>
+                     <ul class="list cat-list">
+                        <li>
+                           <a href="#" class="d-flex">
+                              <p>Gastronomía</p>
+                              <p>(37)</p>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="d-flex">
+                              <p>Playas</p>
+                              <p>(10)</p>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="d-flex">
+                              <p>Historia</p>
+                              <p>(03)</p>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="d-flex">
+                              <p>Aventura</p>
+                              <p>(11)</p>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="d-flex">
+                              <p>Hospedaje</p>
+                              <p>(21)</p>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="d-flex">
+                              <p>Cultura</p>
+                              <p>(21)</p>
+                           </a>
+                        </li>
+                     </ul>
+                  </aside>
+                  <aside class="single_sidebar_widget popular_post_widget">
+                     <h3 class="widget_title">Publicaciones recientes</h3>
+                     <div class="media post_item">
+                        <img src="img/post/post_1.png" alt="Un Día de Playa en Playa Grande">
+                        <div class="media-body">
+                           <a href="single-blog.html">
+                              <h3>Un Día de Playa en Playa Grande</h3>
+                           </a>
+                           <p>12 de septiembre de 2026</p>
+                        </div>
+                     </div>
+                     <div class="media post_item">
+                        <img src="img/post/post_2.png" alt="Atardecer en el Golfo de Fonseca">
+                        <div class="media-body">
+                           <a href="single-blog.html">
+                              <h3>Atardecer en el Golfo de Fonseca</h3>
+                           </a>
+                           <p>12 de septiembre de 2026</p>
+                        </div>
+                     </div>
+                     <div class="media post_item">
+                        <img src="img/post/post_3.png" alt="Pescado Fresco en el Muelle de Amapala">
+                        <div class="media-body">
+                           <a href="single-blog.html">
+                              <h3>Pescado Fresco en el Muelle de Amapala</h3>
+                           </a>
+                           <p>12 de septiembre de 2026</p>
+                        </div>
+                     </div>
+                     <div class="media post_item">
+                        <img src="img/post/post_4.png" alt="Vuelta a la isla: 17 km por Amapala">
+                        <div class="media-body">
+                           <a href="single-blog.html">
+                              <h3>Vuelta a la isla: 17 km por Amapala</h3>
+                           </a>
+                           <p>12 de septiembre de 2026</p>
+                        </div>
+                     </div>
+                  </aside>
+                  <aside class="single_sidebar_widget tag_cloud_widget">
+                     <h4 class="widget_title">Etiquetas</h4>
+                     <ul class="list">
+                        <li>
+                           <a href="#">playa</a>
+                        </li>
+                        <li>
+                           <a href="#">historia</a>
+                        </li>
+                        <li>
+                           <a href="#">mariscos</a>
+                        </li>
+                        <li>
+                           <a href="#">volcán</a>
+                        </li>
+                        <li>
+                           <a href="#">atardecer</a>
+                        </li>
+                        <li>
+                           <a href="#">lancha</a>
+                        </li>
+                        <li>
+                           <a href="#">Golfo de Fonseca</a>
+                        </li>
+                        <li>
+                           <a href="#">Isla del Tigre</a>
+                        </li>
+                     </ul>
+                  </aside>
+                  <aside class="single_sidebar_widget instagram_feeds">
+                     <h4 class="widget_title">Instagram</h4>
+                     <ul class="instagram_row flex-wrap">
+                        <li>
+                           <a href="#">
+                              <img class="img-fluid" src="img/post/post_5.png" alt="">
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#">
+                              <img class="img-fluid" src="img/post/post_6.png" alt="">
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#">
+                              <img class="img-fluid" src="img/post/post_7.png" alt="">
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#">
+                              <img class="img-fluid" src="img/post/post_8.png" alt="">
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#">
+                              <img class="img-fluid" src="img/post/post_9.png" alt="">
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#">
+                              <img class="img-fluid" src="img/post/post_10.png" alt="">
+                           </a>
+                        </li>
+                     </ul>
+                  </aside>
+                  <aside class="single_sidebar_widget newsletter_widget">
+                     <h4 class="widget_title">Boletín</h4>
+                     <form action="#">
+                        <div class="form-group">
+                           <input type="email" class="form-control" onfocus="this.placeholder = ''"
+                              onblur="this.placeholder = 'Tu correo'" placeholder='Tu correo' required>
+                        </div>
+                        <button class="button rounded-0 primary-bg text-white w-100 btn_1 boxed-btn"
+                           type="submit">Suscribirme</button>
+                     </form>
+                  </aside>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!--================ Blog Area end =================-->
+
+
+    <!-- footer start -->
+    <footer class="footer">
+      <div class="footer_top">
+          <div class="container">
+              <div class="row">
+                  <div class="col-xl-4 col-md-6 col-lg-4 ">
+                      <div class="footer_widget">
+                          <div class="footer_logo">
+                              <a href="#">
+                                  <img src="img/footer_logo.png" alt="">
+                              </a>
+                          </div>
+                          <p>5th flora, 700/D kings road, green <br> lane New York-1782 <br>
+                              <a href="#">+10 367 826 2567</a> <br>
+                              <a href="#">contact@carpenter.com</a>
+                          </p>
+                          <div class="socail_links">
+                              <ul>
+                                  <li>
+                                      <a href="#">
+                                          <i class="ti-facebook"></i>
+                                      </a>
+                                  </li>
+                                  <li>
+                                      <a href="#">
+                                          <i class="ti-twitter-alt"></i>
+                                      </a>
+                                  </li>
+                                  <li>
+                                      <a href="#">
+                                          <i class="fa fa-instagram"></i>
+                                      </a>
+                                  </li>
+                                  <li>
+                                      <a href="#">
+                                          <i class="fa fa-pinterest"></i>
+                                      </a>
+                                  </li>
+                                  <li>
+                                      <a href="#">
+                                          <i class="fa fa-youtube-play"></i>
+                                      </a>
+                                  </li>
+                              </ul>
+                          </div>
+
+                      </div>
+                  </div>
+                  <div class="col-xl-2 col-md-6 col-lg-2">
+                      <div class="footer_widget">
+                          <h3 class="footer_title">
+                              Información
+                          </h3>
+                          <ul class="links">
+                              <li><a href="#">Precios</a></li>
+                              <li><a href="#">Nosotros</a></li>
+                              <li><a href="#"> Galeria</a></li>
+                              <li><a href="#"> Contacto</a></li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col-xl-3 col-md-6 col-lg-3">
+                      <div class="footer_widget">
+                          <h3 class="footer_title">
+                              Lugares populares
+                          </h3>
+                          <ul class="links double_links">
+                              <li><a href="#">Playa Grande</a></li>
+                              <li><a href="#">Playa Negra</a></li>
+                              <li><a href="#">Muelle de Amapala</a></li>
+                              <li><a href="#">Cerro del Vigía</a></li>
+                              <li><a href="#">Casa Presidencial</a></li>
+                              <li><a href="#">Coyolito</a></li>
+                              <li><a href="#">Golfo de Fonseca</a></li>
+                              <li><a href="#">Isla del Tigre</a></li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col-xl-3 col-md-6 col-lg-3">
+                      <div class="footer_widget">
+                          <h3 class="footer_title">
+                              Instagram
+                          </h3>
+                          <div class="instagram_feed">
+                              <div class="single_insta">
+                                  <a href="#">
+                                      <img src="img/instagram/1.png" alt="">
+                                  </a>
+                              </div>
+                              <div class="single_insta">
+                                  <a href="#">
+                                      <img src="img/instagram/2.png" alt="">
+                                  </a>
+                              </div>
+                              <div class="single_insta">
+                                  <a href="#">
+                                      <img src="img/instagram/3.png" alt="">
+                                  </a>
+                              </div>
+                              <div class="single_insta">
+                                  <a href="#">
+                                      <img src="img/instagram/4.png" alt="">
+                                  </a>
+                              </div>
+                              <div class="single_insta">
+                                  <a href="#">
+                                      <img src="img/instagram/5.png" alt="">
+                                  </a>
+                              </div>
+                              <div class="single_insta">
+                                  <a href="#">
+                                      <img src="img/instagram/6.png" alt="">
+                                  </a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="copy-right_text">
+          <div class="container">
+              <div class="footer_border"></div>
+              <div class="row">
+                  <div class="col-xl-12">
+                      <p class="copy_right text-center">
+                          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos los derechos reservados <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+  <!--/ footer end  -->
+
+      <!-- Modal -->
+      <div class="modal fade custom_search_pop" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+         <div class="modal-content">
+            <div class="serch_form">
+               <input type="text" placeholder="Buscar" >
+               <button type="submit">buscar</button>
+            </div>
+         </div>
+      </div>
+      </div>
+
+   <!-- JS here -->
+   <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+   <script src="js/vendor/jquery-1.12.4.min.js"></script>
+   <script src="js/popper.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/owl.carousel.min.js"></script>
+   <script src="js/isotope.pkgd.min.js"></script>
+   <script src="js/ajax-form.js"></script>
+   <script src="js/waypoints.min.js"></script>
+   <script src="js/jquery.counterup.min.js"></script>
+   <script src="js/imagesloaded.pkgd.min.js"></script>
+   <script src="js/scrollIt.js"></script>
+   <script src="js/jquery.scrollUp.min.js"></script>
+   <script src="js/wow.min.js"></script>
+   <script src="js/nice-select.min.js"></script>
+   <script src="js/jquery.slicknav.min.js"></script>
+   <script src="js/jquery.magnific-popup.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/gijgo.min.js"></script>
+
+   <!--contact js-->
+   <script src="js/contact.js"></script>
+   <script src="js/jquery.ajaxchimp.min.js"></script>
+   <script src="js/jquery.form.js"></script>
+   <script src="js/jquery.validate.min.js"></script>
+   <script src="js/mail-script.js"></script>
+
+   <script src="js/main.js"></script>
+
+</body>
+
+</html>
